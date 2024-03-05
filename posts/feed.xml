@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>plantbase</title>
+  <subtitle>A free, high-quality and pragmatic knowledge base of plant species.</subtitle>
+  <link href="https://plantbase.green/posts/feed.xml" rel="self"/>
+  <link href="https://plantbase.green/"/>
+  <updated>2023-12-07T00:00:00Z</updated>
+  <id>https://plantbase.green/</id>
+  <author>
+    <name>Alexander Ameye</name>
+    <email>alexanderameye@gmail.com</email>
+  </author>
+  
+  <entry>
+    <title>Soil</title>
+    <link href="https://plantbase.green/posts/soil/"/>
+    <updated>2023-12-07T00:00:00Z</updated>
+    <id>https://plantbase.green/posts/soil/</id>
+    <content type="html">&lt;h2 id=&quot;introduction&quot; tabindex=&quot;-1&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;There are many choices to make when it comes to selecting soil for your plant. There are different soil characteristics
+that you should take into account that should match the preferences of the plant. Additionally, soil amendments can be
+added to the soil.&lt;/p&gt;
+&lt;h2 id=&quot;soil-characteristics&quot; tabindex=&quot;-1&quot;&gt;Soil characteristics&lt;/h2&gt;
+&lt;p&gt;When choosing soil for your plant, these 4 characteristics come into play.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;nutrient richness&lt;/strong&gt;: plants need nutrients for growth&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;drainage/aeration&lt;/strong&gt;: sufficient drainage prevents root rot and allows the roots to breathe&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;moisture retention&lt;/strong&gt;: moisture needs to be sufficiently retained to allow the roots to take it in&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;acidity&lt;/strong&gt;: certain plants prefer more/less acidic soil (lower or higher pH level respectively)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;amendments&quot; tabindex=&quot;-1&quot;&gt;Amendments&lt;/h2&gt;
+&lt;p&gt;A soil amendment is any material added to soil to improve its physical properties, such as water
+retention, permeability, water infiltration, drainage,
+aeration and structure.&lt;/p&gt;
+&lt;h3 id=&quot;coarse-sand&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Coarse sand&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Description: Larger grained sand particles.
+Characteristics: Provides weight and structure, aids in drainage.&lt;/p&gt;
+&lt;h3 id=&quot;sand&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Sand&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Description: Finer grained sand particles.
+Characteristics: Helps with aeration, drainage, and particle separation in soil.
+low water retention&lt;/p&gt;
+&lt;h3 id=&quot;loam&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Loam&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Description: Balanced soil texture containing sand, silt, and clay.
+Characteristics: Ideal soil texture, provides good drainage and moisture retention.&lt;/p&gt;
+&lt;h3 id=&quot;shredded-leaves&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Shredded leaves&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Description: Decomposed organic matter in shredded form.
+Characteristics: Adds organic matter, nutrients, and improves soil structure.&lt;/p&gt;
+&lt;h3 id=&quot;perlite&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Perlite&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Description: Lightweight volcanic glass with high porosity.
+Characteristics: Lightweight, porous, improves aeration and drainage in soil mixes.
+Perlite aids with aeration, but has low water retention qualities.&lt;/p&gt;
+&lt;h3 id=&quot;vermiculite&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Vermiculite&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Description: Mica-based mineral.
+Characteristics: Improves drainage, retains water and nutrients in soil mixes.
+Vermiculite aids with aeration and has high water retention qualities&lt;/p&gt;
+&lt;h3 id=&quot;pumice&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Pumice&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Description: Porous volcanic rock.
+Characteristics: Provides excellent aeration and drainage, lightweight.&lt;/p&gt;
+&lt;h3 id=&quot;peat&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Peat&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Description: Partially decomposed sphagnum moss.
+Characteristics: Retains moisture, improves soil structure, slightly acidic to lower pH
+Very high moisture retention, adds a tiny bit of draingage
+Also provides moisutre transporation due to capillary effect since it is a fibrous material&lt;/p&gt;
+&lt;h3 id=&quot;limestone&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Limestone&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Description: Mineral used to raise pH in acidic soils.
+Characteristics: Raises pH, provides calcium and magnesium.&lt;/p&gt;
+&lt;h3 id=&quot;sphagnum-moss&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Sphagnum moss&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Description: High-quality moss with excellent moisture retention.
+Characteristics: Excellent moisture retention, aids in aeration and root development.
+Also provides moisutre transporation due to capillary effect&lt;/p&gt;
+&lt;h3 id=&quot;coconut-coir&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Coconut coir&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Description: Fibrous material from coconut husks.
+Characteristics: Retains moisture, eco-friendly, provides good aeration.&lt;/p&gt;
+&lt;h3 id=&quot;bark%2Fwood-chips&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Bark/wood chips&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Description: Bark from fir/pine trees, used in potting mixes.
+Characteristics: Provides aeration and drainage, commonly used in mixes.
+High aeration and can hold some moisture&lt;/p&gt;
+&lt;h3 id=&quot;charcoal&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Charcoal&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Description: Charred organic matter.
+Characteristics: Absorbs impurities, improves soil drainage and aeration.&lt;/p&gt;
+&lt;h3 id=&quot;leca-(lightweight-expanded-clay-aggregate)&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;LECA (Lightweight Expanded Clay Aggregate)&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Description: Lightweight porous clay pellets.
+Characteristics: Lightweight, porous, provides aeration and retains moisture.&lt;/p&gt;
+&lt;h3 id=&quot;coconut-chips&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Coconut chips&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Description: Larger coconut husk pieces.
+Characteristics: Provides aeration, retains moisture, sustainable alternative to bark.&lt;/p&gt;
+&lt;h3 id=&quot;compost&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Compost&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Description: Decayed organic matter.
+Characteristics: Adds nutrients, improves soil structure, promotes microbial activity.&lt;/p&gt;
+&lt;h3 id=&quot;worm-castings*&quot; tabindex=&quot;-1&quot;&gt;&lt;em&gt;Worm castings&lt;/em&gt;*&lt;/h3&gt;
+&lt;p&gt;Description: Feces produced by earthworms.
+Characteristics: Rich in nutrients, enhances soil structure, boosts microbial life.&lt;/p&gt;
+&lt;h3 id=&quot;lava-rock&quot; tabindex=&quot;-1&quot;&gt;&lt;strong&gt;Lava Rock&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Can be used as a top layer for cactii
+very permeable, good drainage&lt;/p&gt;
+&lt;h2 id=&quot;overview&quot; tabindex=&quot;-1&quot;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;// TODO: table&lt;/p&gt;
+&lt;p&gt;Synonyms for aeration are: permeability, drainage&lt;/p&gt;
+&lt;p&gt;Synonyms for moisture retention are: water retention&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Amendment&lt;/th&gt;
+&lt;th&gt;Aeration&lt;/th&gt;
+&lt;th&gt;Moisture retention&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Peat&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;low&quot;&gt;low&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;medium&quot;&gt;medium&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Vermiculite&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;high&quot;&gt;high&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;low&quot;&gt;low&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pumice&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;medium&quot;&gt;medium&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;medium&quot;&gt;medium&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Perlite&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;low&quot;&gt;low&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&quot;low&quot;&gt;low&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;additional-resources&quot; tabindex=&quot;-1&quot;&gt;Additional resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://extension.colostate.edu/topic-areas/yard-garden/choosing-a-soil-amendment/#:~:text=A%20soil%20amendment%20is%20any,thoroughly%20mixed%20into%20the%20soil.&quot;&gt;https://extension.colostate.edu/topic-areas/yard-garden/choosing-a-soil-amendment/#:~:text=A%20soil%20amendment%20is%20any,thoroughly%20mixed%20into%20the%20soil.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.bathgardencenter.com/post/soil-amendments&quot;&gt;https://www.bathgardencenter.com/post/soil-amendments&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Plant taxonomy explained</title>
+    <link href="https://plantbase.green/posts/plant-taxonomy-explained/"/>
+    <updated>2023-12-07T00:00:00Z</updated>
+    <id>https://plantbase.green/posts/plant-taxonomy-explained/</id>
+    <content type="html">&lt;h2 id=&quot;introduction&quot; tabindex=&quot;-1&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Plants are classified into various categories based on their characteristics and evolutionary relationships.
+Understanding the taxonomy of a plant species involves familiarizing oneself with terms like &lt;em&gt;family&lt;/em&gt;, &lt;em&gt;genus&lt;/em&gt;,
+&lt;em&gt;species&lt;/em&gt;,
+&lt;em&gt;subspecies&lt;/em&gt;, &lt;em&gt;variety&lt;/em&gt;, and &lt;em&gt;cultivar&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;taxonomy&quot; tabindex=&quot;-1&quot;&gt;Taxonomy&lt;/h2&gt;
+&lt;p&gt;As an example, let&#39;s look at the common houseplant &lt;span id=&quot;species-taxon&quot;&gt;Monstera deliciosa&lt;/span&gt;. The taxonomy
+can be represented using the following diagram.&lt;/p&gt;
+&lt;div id=&quot;taxonomy-card&quot;&gt;
+    &lt;ul class=&quot;background rounded outline shadow&quot;&gt;
+        &lt;li&gt;
+            &lt;p&gt;Family &lt;span id=&quot;familia-taxon&quot;&gt;Araceae&lt;/span&gt;&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;p&gt;Genus &lt;span id=&quot;genus-taxon&quot;&gt;Monstera&lt;/span&gt;&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;p&gt;Species &lt;span id=&quot;species-taxon&quot;&gt;Monstera deliciosa&lt;/span&gt; subsp. &lt;span id=&quot;subspecies-taxon&quot;&gt;douglasii&lt;/span&gt;&lt;/p&gt;
+        &lt;/li&gt;
+     &lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;Let&#39;s explain what the different terms mean.&lt;/p&gt;
+&lt;h3 id=&quot;family&quot; tabindex=&quot;-1&quot;&gt;Family&lt;/h3&gt;
+&lt;p&gt;A &lt;strong&gt;family&lt;/strong&gt; in plant taxonomy represents a higher-level grouping that includes multiple genera sharing certain common
+traits. For instance, the &lt;span id=&quot;familia-taxon&quot;&gt;Araceae&lt;/span&gt; family encompasses various genera such
+as &lt;span id=&quot;genus-taxon&quot;&gt;Anthurium&lt;/span&gt;, &lt;span id=&quot;genus-taxon&quot;&gt;Monstera&lt;/span&gt; and &lt;span id=&quot;genus-taxon&quot;&gt;
+Philodendron&lt;/span&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;genus&quot; tabindex=&quot;-1&quot;&gt;Genus&lt;/h3&gt;
+&lt;p&gt;A &lt;strong&gt;genus&lt;/strong&gt; is a level below the family and groups together species that are closely related.&lt;/p&gt;
+&lt;h3 id=&quot;species&quot; tabindex=&quot;-1&quot;&gt;Species&lt;/h3&gt;
+&lt;p&gt;A &lt;strong&gt;species&lt;/strong&gt; is the basic unit of classification. It refers to a group of organisms that share similar characteristics
+and can interbreed to produce fertile offspring. Scientific names of species are composed of two words: the genus name (
+italicized) followed by the species name (not italicized).&lt;/p&gt;
+&lt;h4&gt;Epithet&lt;/h4&gt;
+&lt;p&gt;epithet&lt;/p&gt;
+&lt;h3 id=&quot;subspecies&quot; tabindex=&quot;-1&quot;&gt;Subspecies&lt;/h3&gt;
+&lt;p&gt;Subspecies, positioned between a species and a variety, denotes a geographically isolated plant within a species. This
+isolation prevents interbreeding despite genetic compatibility. This geographical distinction often results in varied
+physical traits.&lt;/p&gt;
+&lt;p&gt;The notation &amp;quot;subsp.&amp;quot; appears between the species and subspecies names.&lt;/p&gt;
+&lt;div id=&quot;taxonomy-card&quot;&gt;
+    &lt;ul class=&quot;background rounded outline shadow&quot;&gt;
+        &lt;li&gt;
+            &lt;p&gt;Species &lt;span id=&quot;species-taxon&quot;&gt;Monstera adansonii&lt;/span&gt; subsp. &lt;span id=&quot;subspecies-taxon&quot;&gt;laniata&lt;/span&gt;&lt;/p&gt;
+        &lt;/li&gt;
+     &lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;As an example, for &lt;span id=&quot;species-taxon&quot;&gt;Monstera adansonii&lt;/span&gt; let&#39;s look at the geographical distributions of
+the
+subspecies &lt;span id=&quot;subspecies-taxon&quot;&gt;adansonii&lt;/span&gt; and &lt;span id=&quot;subspecies-taxon&quot;&gt;
+blanchetii&lt;/span&gt;.&lt;/p&gt;
+&lt;div id=&quot;map&quot; class=&quot;rounded outline&quot;&gt;&lt;/div&gt;
+&lt;script src=&quot;https://plantbase.green/assets/js/adansonii.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://plantbase.green/assets/js/blanchetii.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://plantbase.green/assets/js/subspecies-map.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;
+&lt;p&gt;As you can see, these subspecies are geographically isolated, allowing them to develop unique attributes.&lt;/p&gt;
+&lt;h3 id=&quot;variety&quot; tabindex=&quot;-1&quot;&gt;Variety&lt;/h3&gt;
+&lt;p&gt;A &lt;strong&gt;variety&lt;/strong&gt; denotes a naturally occurring variation within a species. It is indicated by abbreviating &amp;quot;var.&amp;quot; before
+the variety name, which is not italicized. For instance, &lt;em&gt;Rosa indica var. odorata&lt;/em&gt; represents a variety of the garden
+rose with a distinct scent.&lt;/p&gt;
+&lt;div id=&quot;taxonomy-card&quot;&gt;
+    &lt;ul class=&quot;background rounded outline shadow&quot;&gt;
+        &lt;li&gt;
+            &lt;p&gt;Species &lt;span id=&quot;species-taxon&quot;&gt;Monstera deliciosa&lt;/span&gt; var. &lt;span id=&quot;subspecies-taxon&quot;&gt;douglasii&lt;/span&gt;&lt;/p&gt;
+        &lt;/li&gt;
+     &lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id=&quot;cultivar&quot; tabindex=&quot;-1&quot;&gt;Cultivar&lt;/h3&gt;
+&lt;p&gt;A &lt;strong&gt;cultivar&lt;/strong&gt; is a cultivated variety developed through selective breeding or other human interventions. It can be seen
+as a variety produced by human selection and breeding rather than naturally occurring.&lt;/p&gt;
+&lt;p&gt;Cultivar names are capitalized and enclosed in single quotes but are not italicized. For example, &#39;Peace&#39; is a cultivar
+of the garden rose.&lt;/p&gt;
+&lt;p&gt;Understanding these taxonomic terms helps scientists, horticulturists, and enthusiasts communicate precisely about plant
+species, their relationships, and their variations.&lt;/p&gt;
+&lt;h2 id=&quot;common-names&quot; tabindex=&quot;-1&quot;&gt;Common names&lt;/h2&gt;
+&lt;p&gt;Often, common names are used to refer to specific species, genera or families. For example,
+the &lt;span id=&quot;familia-taxon&quot;&gt;Araceae&lt;/span&gt; family is often referred to as the &lt;strong&gt;arum family&lt;/strong&gt; or the &lt;strong&gt;aroids&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;additional-resources&quot; tabindex=&quot;-1&quot;&gt;Additional resources&lt;/h2&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Plant jargon: A-Z</title>
+    <link href="https://plantbase.green/posts/plant-jargon-explained/"/>
+    <updated>2023-12-07T00:00:00Z</updated>
+    <id>https://plantbase.green/posts/plant-jargon-explained/</id>
+    <content type="html">&lt;h2 id=&quot;introduction&quot; tabindex=&quot;-1&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;When it comes to plants, lots of different terms are used in articles, blog posts or websites. Some of these terms are
+not clearly/properly explained. This article aims to explain some words you might encounter when it comes to discussing
+plants.&lt;/p&gt;
+&lt;h2 id=&quot;plant-jargon&quot; tabindex=&quot;-1&quot;&gt;Plant jargon&lt;/h2&gt;
+&lt;h3 id=&quot;acidity-or-ph-levels&quot; tabindex=&quot;-1&quot;&gt;Acidity or pH levels&lt;/h3&gt;
+&lt;h3 id=&quot;cultivar&quot; tabindex=&quot;-1&quot;&gt;Cultivar&lt;/h3&gt;
+&lt;p&gt;Read &lt;a href=&quot;https://plantbase.green/posts/plant-jargon-explained/plant-taxonomy-explained&quot;&gt;Plant taxonomy: explained&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;h3 id=&quot;family&quot; tabindex=&quot;-1&quot;&gt;Family&lt;/h3&gt;
+&lt;p&gt;Read &lt;a href=&quot;https://plantbase.green/posts/plant-jargon-explained/plant-taxonomy-explained&quot;&gt;Plant taxonomy: explained&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;h3 id=&quot;fenestration&quot; tabindex=&quot;-1&quot;&gt;Fenestration&lt;/h3&gt;
+&lt;h3 id=&quot;genus&quot; tabindex=&quot;-1&quot;&gt;Genus&lt;/h3&gt;
+&lt;p&gt;Read &lt;a href=&quot;https://plantbase.green/posts/plant-jargon-explained/plant-taxonomy-explained&quot;&gt;Plant taxonomy: explained&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;h3 id=&quot;guttation&quot; tabindex=&quot;-1&quot;&gt;Guttation&lt;/h3&gt;
+&lt;h3 id=&quot;hardiness-zone&quot; tabindex=&quot;-1&quot;&gt;Hardiness zone&lt;/h3&gt;
+&lt;h3 id=&quot;inflorescence&quot; tabindex=&quot;-1&quot;&gt;Inflorescence&lt;/h3&gt;
+&lt;p&gt;An inflorescence, in a flowering plant, is a group or cluster of flowers arranged on a stem that is composed of a main
+branch or a system of branches.&lt;/p&gt;
+&lt;h3 id=&quot;petiole&quot; tabindex=&quot;-1&quot;&gt;Petiole&lt;/h3&gt;
+&lt;h3 id=&quot;propagation&quot; tabindex=&quot;-1&quot;&gt;Propagation&lt;/h3&gt;
+&lt;p&gt;Plant propagation is the process of producing a new plant from an existing plant.&lt;/p&gt;
+&lt;p&gt;Sexual propagation is the process of reproduction of plants by seeds. The resulting plant is a genetic combination of
+each parent plant.&lt;/p&gt;
+&lt;p&gt;Asexual/vegetative propagation is the process of taking a piece of a (usually mature) plant and growing it into a new
+plant. The resulting plant is genetically identical to the parent plant and essentially a clone.&lt;/p&gt;
+&lt;p&gt;Usually when talking about propagation in the context of houseplants, one is referring to the asexual/vegetative variant
+of propagation and not the sexual variant.&lt;/p&gt;
+&lt;h3 id=&quot;species&quot; tabindex=&quot;-1&quot;&gt;Species&lt;/h3&gt;
+&lt;p&gt;Read &lt;a href=&quot;https://plantbase.green/posts/plant-jargon-explained/plant-taxonomy-explained&quot;&gt;Plant taxonomy: explained&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;h3 id=&quot;subspecies&quot; tabindex=&quot;-1&quot;&gt;Subspecies&lt;/h3&gt;
+&lt;p&gt;Read &lt;a href=&quot;https://plantbase.green/posts/plant-jargon-explained/plant-taxonomy-explained&quot;&gt;Plant taxonomy: explained&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;h3 id=&quot;turgor-pressure&quot; tabindex=&quot;-1&quot;&gt;Turgor pressure&lt;/h3&gt;
+&lt;h3 id=&quot;variegated&quot; tabindex=&quot;-1&quot;&gt;Variegated&lt;/h3&gt;
+&lt;h3 id=&quot;variety&quot; tabindex=&quot;-1&quot;&gt;Variety&lt;/h3&gt;
+&lt;p&gt;Read &lt;a href=&quot;https://plantbase.green/posts/plant-jargon-explained/plant-taxonomy-explained&quot;&gt;Plant taxonomy: explained&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;h2 id=&quot;additional-resources&quot; tabindex=&quot;-1&quot;&gt;Additional resources&lt;/h2&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>How to water your plants</title>
+    <link href="https://plantbase.green/posts/how-to-water-plants/"/>
+    <updated>2023-12-07T00:00:00Z</updated>
+    <id>https://plantbase.green/posts/how-to-water-plants/</id>
+    <content type="html">&lt;h2 id=&quot;introduction&quot; tabindex=&quot;-1&quot;&gt;Introduction&lt;/h2&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>How to propagate plants</title>
+    <link href="https://plantbase.green/posts/how-to-propagate-plants/"/>
+    <updated>2023-12-07T00:00:00Z</updated>
+    <id>https://plantbase.green/posts/how-to-propagate-plants/</id>
+    <content type="html">&lt;h2 id=&quot;introduction&quot; tabindex=&quot;-1&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Plant propagation is the process of producing a new plant from an existing plant.&lt;/p&gt;
+&lt;p&gt;Sexual propagation is the process of reproduction of plants by seeds. The resulting plant is a genetic combination of
+each parent plant.&lt;/p&gt;
+&lt;p&gt;Asexual/vegetative propagation is the process of taking a piece of a (usually mature) plant and growing it into a new
+plant. The resulting plant is genetically identical to the parent plant and essentially a clone.&lt;/p&gt;
+&lt;p&gt;Usually when talking about propagation in the context of houseplants, one is referring to the asexual/vegetative variant
+of propagation and not the sexual variant.&lt;/p&gt;
+&lt;p&gt;There are a few ways to achieve asexual propagation, explained here.&lt;/p&gt;
+&lt;h2 id=&quot;asexual-propagation&quot; tabindex=&quot;-1&quot;&gt;Asexual propagation&lt;/h2&gt;
+&lt;p&gt;There are 3 ways of propagating houseplants asexually.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;cuttings (leaf or stem): Chopping off part of a mature plant and rooting it in water or soil&lt;/li&gt;
+&lt;li&gt;division/separation: Splitting a mature plant at the roots to make more plants&lt;/li&gt;
+&lt;li&gt;offsets: Picking ‘pups’, or baby plants, from a mature plant&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&quot;propagation-methods&quot; style=&quot;padding-top: 1em;&quot;&gt;
+&lt;ul&gt;
+&lt;li class=&quot;background rounded outline&quot;&gt;&lt;p&gt;stem cutting&lt;/p&gt;&lt;/li&gt;
+&lt;li class=&quot;background rounded outline&quot;&gt;&lt;p&gt;leaf cutting&lt;/p&gt;&lt;/li&gt;
+&lt;li class=&quot;background rounded outline&quot;&gt;&lt;p&gt;bud cutting&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;When taking a cutting of your plant&lt;/p&gt;
+&lt;div id=&quot;propagation-methods&quot; style=&quot;padding-top: 1em;&quot;&gt;
+&lt;ul&gt;
+&lt;li class=&quot;background rounded outline&quot;&gt;&lt;p&gt;division&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;A second way of&lt;/p&gt;
+&lt;div id=&quot;propagation-methods&quot; style=&quot;padding-top: 1em;&quot;&gt;
+&lt;ul&gt;
+&lt;li class=&quot;background rounded outline&quot;&gt;&lt;p&gt;separation&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;A third way&lt;/p&gt;
+&lt;h2 id=&quot;additional-resources&quot; tabindex=&quot;-1&quot;&gt;Additional resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://content.ces.ncsu.edu/extension-gardener-handbook/13-propagation&quot;&gt;https://content.ces.ncsu.edu/extension-gardener-handbook/13-propagation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>How to care for plants</title>
+    <link href="https://plantbase.green/posts/how-to-care-for-plants/"/>
+    <updated>2023-12-07T00:00:00Z</updated>
+    <id>https://plantbase.green/posts/how-to-care-for-plants/</id>
+    <content type="html">&lt;h2 id=&quot;introduction&quot; tabindex=&quot;-1&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This guide will explain how to care for plants. In general, plants need 3 things.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;soil for nutrients&lt;/li&gt;
+&lt;li&gt;water&lt;/li&gt;
+&lt;li&gt;light&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;soil&quot; tabindex=&quot;-1&quot;&gt;Soil&lt;/h2&gt;
+&lt;h2 id=&quot;water&quot; tabindex=&quot;-1&quot;&gt;Water&lt;/h2&gt;
+&lt;p&gt;It is not possible to predict how often you should water your plants since it depends on so many factors such as season, humidity, temperature, distance to window, distance to heating, type of pot, maturity of the plant etc.&lt;/p&gt;
+&lt;p&gt;In general, for most houseplants, don’t water too often. Wait for the soil to dry out before watering. It is better to under-water than to over-water.&lt;/p&gt;
+&lt;h2 id=&quot;light&quot; tabindex=&quot;-1&quot;&gt;Light&lt;/h2&gt;
+&lt;h2 id=&quot;additional-resources&quot; tabindex=&quot;-1&quot;&gt;Additional resources&lt;/h2&gt;
+</content>
+  </entry>
+</feed>
