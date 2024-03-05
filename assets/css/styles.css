@@ -25,7 +25,13 @@
 }
 
 
-
+.top-row p {
+font-size: 1.8rem;
+    font-family: "Vollkorn", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
 
 /* UTILITY CLASSES */
 
