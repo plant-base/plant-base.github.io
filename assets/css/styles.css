@@ -248,7 +248,7 @@ a {
 
 #taxonomy-card ul p {
     margin: 0;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 1.6;
 }
 
@@ -370,6 +370,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    overflow-wrap: break-word;
+    hyphens: auto;
 }
 
 @keyframes fade-in {
@@ -459,10 +461,29 @@ a:hover {
     grid-template-areas: "left content right";
 }
 
+
+.footer-row {
+    align-items: end;
+    justify-content: space-between;
+    row-gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    line-height: 1.5;
+}
+
 .footer-content {
     padding-top: 2rem;
     padding-bottom: 2rem;
     grid-area: content;
+    row-gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+
+
+.footer-column {
     row-gap: 1rem;
     display: flex;
     flex-direction: column;
@@ -906,12 +927,17 @@ h5 {
     text-decoration: none;
 }
 
+.no-info {
+    color: #9f9f9f;
+}
+
 #taxonomy-list ul {
     padding: 0;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 #taxonomy-list li {
@@ -926,6 +952,23 @@ h5 {
 #article #taxonomy-collection p {
     margin: 0;
 }
+
+#species-collection {
+padding-top: 1em;
+}
+
+#species-collection li {
+padding-bottom: 1em;
+}
+
+
+#species-collection img {
+    margin-right: 1em;
+    width: 5em;
+    height: 5em;
+    border-radius: 4px;
+}
+
 
 #cultivars ul {
     padding: 0;
@@ -995,7 +1038,7 @@ h5 {
 
 #article .no-info p {
     margin-bottom: 0;
-    padding: 0.5em;
+    padding: 0.8em;
 }
 
 .no-info a {
