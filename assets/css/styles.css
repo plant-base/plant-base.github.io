@@ -995,6 +995,10 @@ padding-bottom: 1em;
     max-inline-size: unset;
 }
 
+#species-collection li p {
+    line-height: 1.2;
+}
+
 #species-collection li a {
     text-decoration: none;
 }
