@@ -6,6 +6,8 @@
     --text: #181c1f;
     --theme: #fffbcd;
     --marker-color: 255, 234, 71;
+    --border: #646d6961;
+    --shadow: #647f6733;
 }
 
 .dark, :root {
@@ -15,6 +17,8 @@
     --text: #eaf2f7;
     --theme: #ffd848;
     --marker-color: 102, 255, 174;
+    --border: #ddcfa1cf;
+    --shadow: #ddcfa130;
 }
 
 
@@ -30,7 +34,11 @@
 }
 
 .outline {
-    border: 1px solid #87ac86cf;
+    border: 1px solid var(--border);
+}
+
+.shadow {
+    box-shadow: 4px 4px 0 var(--shadow);
 }
 
 /* GENERAL */
@@ -49,7 +57,7 @@
     padding-bottom: 0.4rem;
     line-height: 1.0;
     font-weight: 200;
-
+    overflow: scroll;
 }
 
 #article h2 {

@@ -111,6 +111,11 @@
       <changefreq>monthly</changefreq>
     </url>
     <url>
+      <loc>https://plantbase.green/search/</loc>
+      <lastmod>2024-03-11</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+    <url>
       <loc>https://plantbase.green/species/</loc>
       <lastmod>2024-03-11</lastmod>
       <changefreq>monthly</changefreq>
