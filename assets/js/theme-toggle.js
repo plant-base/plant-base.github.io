@@ -14,7 +14,7 @@ window
     .matchMedia('(prefers-color-scheme: dark)')
     .addEventListener('change', ({matches: isDark}) => {
         theme.value = isDark ? 'dark' : 'light';
-        setTheme();
+        setThemePreference();
     });
 
 function onClick() {
@@ -45,8 +45,10 @@ function reflectThemePreference() {
 
     if (theme.value === 'dark') {
         document.body.classList.replace('light', 'dark');
+        document.querySelector('meta[name="theme-color"]').setAttribute('content',  '#181c1f');
     } else if (theme.value === 'light') {
         document.body.classList.replace('dark', 'light');
+        document.querySelector('meta[name="theme-color"]').setAttribute('content',  '#f6f4f0');
     }
 
     if (document.getElementById('map')) {

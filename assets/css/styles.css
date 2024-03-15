@@ -947,8 +947,8 @@ h5 {
 
 /* TABLE OF CONTENTS */
 #table-of-contents {
-    /*position: sticky;*/
-    /*top: calc(2rem + var(--nav-height));*/
+    position: sticky;
+    top: calc(2rem + var(--nav-height));
     margin-top: 2em;
     border-left: 2px solid var(--dark);
     align-self: flex-start;
@@ -973,16 +973,16 @@ h5 {
     padding: 0;
 }
 
-#enumeration li p {
+#article .enumeration li p {
     padding: 0;
     margin: 0;
 }
 
-#enumeration {
+.enumeration {
     margin-bottom: 1em;
 }
 
-#enumeration ul {
+.enumeration ul {
     padding: 0;
     display: flex;
     justify-content: flex-start;
@@ -990,7 +990,7 @@ h5 {
     flex-wrap: wrap;
 }
 
-#enumeration li {
+.enumeration li {
     display: inline-block;
     margin-right: 0.5em;
     font-style: italic;
@@ -1097,6 +1097,17 @@ padding-bottom: 1em;
 .care-card {
     padding: 1em;
     border: 1px solid #86a8ac4a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#article .care-card h3 {
+    padding-top: 0;
+}
+
+#article .more-info {
+    margin-bottom: 0;
 }
 
 .card-text {
@@ -1274,10 +1285,11 @@ padding-bottom: 1em;
 
 .temperature-child-bar {
     position: absolute;
-    background-color: #b6ff7369;
+    background-color: #6fe80069;
     height: 100%;
     border-radius: 0px;
 }
+
 
 .humidity-child-bar {
     position: absolute;
@@ -1286,8 +1298,86 @@ padding-bottom: 1em;
     border-radius: 0px;
 }
 
+.care-card p a {
+    text-decoration: none;
+    border-bottom: 2px dotted var(--text);
+    opacity: 1;
+    color: var(--text);
+    transition: none;
+}
+
+#taxonomy-card p a:hover {
+    font-weight: 700;
+    transition: color .2s ease;
+    color: var(--text-inverse);
+    opacity: 1;
+}
+
+#taxonomy-card p a {
+    text-decoration: none;
+}
+
+.care-card p a:hover {
+    opacity: 1;
+    background-color: var(--text);
+    color: var(--text-inverse);
+    transition: color .2s ease;
+    font-weight: 700;
+}
+
+details {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+details[open] summary p::before {
+    content: "↑";
+}
+
+details[open] summary {
+    background-color: #e7e7e7;
+}
+
+summary {
+    list-style: none;
+    border-bottom: 1px solid var(--text);
+    border-radius: 0px;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 1em;
+}
+
+#article .care-card summary p {
+    padding: 0em;
+    margin: 0;
+}
+
+summary p::before {
+    margin-right: 1rem;
+    content: "↓";
+    width: 1.4rem;
+    height: 1.4rem;
+    background-color: var(--text);
+    border-radius: 4px;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.more-info a::after {
+    content: "\00a0→";
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+
 .value-range-label {
     position: absolute;
+
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);

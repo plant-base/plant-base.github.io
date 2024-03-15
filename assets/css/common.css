@@ -4,6 +4,7 @@
     --bg-light: #f6f9fc;
     --dark: #181c1f;
     --text: #181c1f;
+    --text-inverse: #eaf2f7;
     --theme: #fffbcd;
     --marker-color: 255, 234, 71;
     --border: #1f3816c4;
@@ -15,6 +16,7 @@
     --bg-light: #2c2c30;
     --dark: #eaf2f7;
     --text: #eaf2f7;
+    --text-inverse: #181c1f;
     --theme: #ffd848;
     --marker-color: 102, 255, 174;
     --border: #ddcfa1cf;
@@ -76,7 +78,7 @@
     scroll-margin-top: 2em;
     font-size: 1.8rem;
     padding-top: 2.6rem;
-    padding-bottom: 0.4rem;
+    padding-bottom: 1rem;
     font-weight: bold;
 }
 
@@ -112,7 +114,7 @@
     margin-left: 0.15em;
     margin-right: 0.15em;
     color: var(--black);
-    padding: 0.15em 0.4em;
+    padding: 0.15em 0.5em;
     border-radius: 6px;
     background-color: #c6eb8e;
 }
@@ -122,7 +124,7 @@
     margin-right: 0.15em;
     color: var(--black);
     font-style: italic;
-    padding: 0.15em 0.4em;
+    padding: 0.15em 0.5em;
     border-radius: 6px;
     background-color: #d8e3bf;
 }
@@ -132,7 +134,7 @@
     margin-right: 0.15em;
     color: var(--black);
     font-style: italic;
-    padding: 0.15em 0.4em;
+    padding: 0.15em 0.5em;
     border-radius: 6px;
     background-color: #b4e9e2;
 }
@@ -140,7 +142,7 @@
 #subspecies-taxon {
     color: var(--black);
     font-style: italic;
-    padding: 0.15em 0.4em;
+    padding: 0.15em 0.5em;
     border-radius: 6px;
     background-color: #ead997;
 }
