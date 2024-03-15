@@ -2,7 +2,7 @@
     --sans: -apple-system, BlinkMacSystemFont, Inter, Segoe UI, Helvetica Neue,
         sans-serif;
     --serif: "MD System", serif;
-    --nav-height: 100px;
+    --nav-height: 120px;
     --landing-page-max-width: 1200px;
     --font-size-jumbo: 79px;
 
@@ -265,9 +265,7 @@ a {
 
 /* DISTRIBUTION MAP */
 #map {
-    margin-top: 2em;
-    margin-bottom: 2em;
-    height: 400px;
+    height: 300px;
     z-index: 0;
 }
 
@@ -363,7 +361,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-
+    width: 100%;
+    position: relative;
 }
 
 @keyframes fade-in {
@@ -401,21 +400,36 @@ a:hover {
 
 /* PAGE */
 .page {
-    padding-top: var(--nav-height);
     display: grid;
     grid-template-areas: "left content right";
 }
 
+/* BANNER */
+#banner {
+    display: flex;
+    background-color: #000000de;
+    height: 2.4em;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner p {
+    color: #ffffffff;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 0.9rem;
+}
+
 /* NAV-BAR */
 .nav-bar {
+    left: 0;
+    right: 0;
     top: 0;
-    position: fixed;
+    position: sticky;
     z-index: 100;
-    width: 100%;
     background: var(--bg);
     display: grid;
     grid-template-areas: "left content right";
-
 }
 
 
@@ -640,11 +654,16 @@ h5 {
         grid-template-columns: 1fr;
     }
 
-    #description-cards {
+    .row {
         flex-direction: column;
     }
 
     #links {
+        margin-left: 0;
+    }
+
+    #map {
+        flex-basis: unset;
         margin-left: 0;
     }
 }
@@ -674,11 +693,16 @@ h5 {
         grid-template-columns: 1fr;
     }
 
-    #description-cards {
+    .row {
         flex-direction: column;
     }
 
     #links {
+        margin-left: 0;
+    }
+
+    #map {
+        flex-basis: unset;
         margin-left: 0;
     }
 }
@@ -708,11 +732,16 @@ h5 {
         grid-template-columns: 1fr;
     }
 
-    #description-cards {
+    .row {
         flex-direction: column;
     }
 
     #links {
+        margin-left: 0;
+    }
+
+    #map {
+        flex-basis: unset;
         margin-left: 0;
     }
 }
@@ -742,12 +771,12 @@ h5 {
         grid-template-columns: 1fr 1fr;
     }
 
-    #description-cards {
+    .row {
         flex-direction: row;
     }
 
     #species-image {
-        max-width: 50%;
+        max-width: 30%;
     }
 
     #links {
@@ -756,6 +785,11 @@ h5 {
 
     .nav-bar nav {
         flex-direction: row;
+    }
+
+    #map {
+        flex-basis: 60%;
+        margin-left: 2em;
     }
 }
 
@@ -784,12 +818,12 @@ h5 {
         grid-template-columns: 1fr 1fr;
     }
 
-    #description-cards {
+    .row {
         flex-direction: row;
     }
 
     #species-image {
-        max-width: 50%;
+        max-width: 30%;
     }
 
     #links {
@@ -798,6 +832,11 @@ h5 {
 
     .nav-bar nav {
         flex-direction: row;
+    }
+
+    #map {
+        flex-basis: 60%;
+        margin-left: 2em;
     }
 }
 
@@ -826,12 +865,12 @@ h5 {
         grid-template-columns: 1fr 1fr;
     }
 
-    #description-cards {
+    .row {
         flex-direction: row;
     }
 
     #species-image {
-        max-width: 50%;
+        max-width: 30%;
     }
 
     #links {
@@ -840,6 +879,11 @@ h5 {
 
     .nav-bar nav {
         flex-direction: row;
+    }
+
+    #map {
+        flex-basis: 60%;
+        margin-left: 2em;
     }
 }
 
@@ -868,12 +912,12 @@ h5 {
         grid-template-columns: 1fr 1fr;
     }
 
-    #description-cards {
+    .row {
         flex-direction: row;
     }
 
     #species-image {
-        max-width: 50%;
+        max-width: 30%;
     }
 
     #links {
@@ -882,6 +926,11 @@ h5 {
 
     .nav-bar nav {
         flex-direction: row;
+    }
+
+    #map {
+        flex-basis: 60%;
+        margin-left: 2em;
     }
 }
 
@@ -898,8 +947,9 @@ h5 {
 
 /* TABLE OF CONTENTS */
 #table-of-contents {
-    position: sticky;
-    top: calc(2rem + var(--nav-height));
+    /*position: sticky;*/
+    /*top: calc(2rem + var(--nav-height));*/
+    margin-top: 2em;
     border-left: 2px solid var(--dark);
     align-self: flex-start;
 }
@@ -983,8 +1033,15 @@ h5 {
 padding-top: 1em;
 }
 
+#species-collection ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
 #species-collection li {
 padding-bottom: 1em;
+    margin-right: 1em;
 }
 
 
@@ -1271,6 +1328,7 @@ padding-bottom: 1em;
 .image-container {
     display: inline-block;
     position: relative;
+    overflow: hidden;
 }
 
 @font-face {

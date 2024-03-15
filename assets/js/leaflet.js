@@ -2,8 +2,8 @@ const map = L.map('map',
     {
         attributionControl: false,
         zoomControl: true,
-        minZoom: 2.0,
-        maxZoom: 10,
+        minZoom: 3.0,
+        maxZoom: 10.0,
         scrollWheelZoom: false
     }).setView([0.0, 0.0], 2);
 

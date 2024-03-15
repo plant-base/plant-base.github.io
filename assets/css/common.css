@@ -6,8 +6,8 @@
     --text: #181c1f;
     --theme: #fffbcd;
     --marker-color: 255, 234, 71;
-    --border: #646d6961;
-    --shadow: #647f6733;
+    --border: #1f3816c4;
+    --shadow: #81b78730;
 }
 
 .dark, :root {
@@ -41,6 +41,19 @@
     box-shadow: 4px 4px 0 var(--shadow);
 }
 
+
+.expand {
+    flex: 1;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
 /* GENERAL */
 #article {
     flex-grow: 1;
@@ -57,7 +70,6 @@
     padding-bottom: 0.4rem;
     line-height: 1.0;
     font-weight: 200;
-    overflow: scroll;
 }
 
 #article h2 {
@@ -158,17 +170,7 @@
     margin: 0;
 }
 
-.expand {
-    flex: 1;
-}
 
-.flex {
-    display: flex;
-}
-
-.column {
-    flex-direction: column;
-}
 
 .gap {
     gap: 2em;
