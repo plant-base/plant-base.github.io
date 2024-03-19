@@ -67,7 +67,7 @@
 
 /* TYPOGRAPHY */
 #article h1 {
-    font-size: 4em;
+    font-size: 3em;
     padding-top: 0;
     padding-bottom: 0.4rem;
     line-height: 1.0;
@@ -93,12 +93,12 @@
 #article h4 {
     scroll-margin-top: 4.8em;
     font-size: 1.0rem;
-    padding-top: 0.6rem;
+    padding-top: 2.4rem;
     padding-bottom: 0.4rem;
     font-weight: bold;
 }
 
-#article p {
+p {
     line-height: 1.8;
     margin-bottom: 1em;
     font-size: 0.9rem;

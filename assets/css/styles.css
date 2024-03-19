@@ -417,6 +417,8 @@ a:hover {
     color: #ffffffff;
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-bottom: 0;
+    margin-top: 0;
     font-size: 0.9rem;
 }
 
@@ -1334,10 +1336,6 @@ details[open] summary p::before {
     content: "↑";
 }
 
-details[open] summary {
-    background-color: #e7e7e7;
-}
-
 summary {
     list-style: none;
     border-bottom: 1px solid var(--text);
@@ -1355,15 +1353,15 @@ summary {
 summary p::before {
     margin-right: 1rem;
     content: "↓";
-    width: 1.4rem;
-    height: 1.4rem;
-    background-color: var(--text);
+    height: 1rem;
     border-radius: 4px;
-    color: #fff;
+    color: var(--text);
     display: inline-flex;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    scale: 1.5;
+    padding-bottom: 0.4em;
 }
 
 .more-info a::after {
@@ -1440,3 +1438,50 @@ summary p::before {
     font-display: swap;
 }
 
+
+.knowledge-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.knowledge-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.knowledge-card-image {
+    position: relative;
+    overflow: hidden;
+}
+
+nav p {
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: unset;
+}
+
+.footer p {
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: unset;
+}
+
+.knowledge-card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 0.5em;
+}
+
+.knowledge-card-text p {
+    margin-bottom: 0;
+}
+
+.knowledge-card-text p:first-child {
+   font-weight: bold;
+}
+
+.knowledge-cards a {
+    text-decoration: none;
+}
