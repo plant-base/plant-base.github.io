@@ -419,7 +419,7 @@ a:hover {
     margin-right: 1rem;
     margin-bottom: 0;
     margin-top: 0;
-    font-size: 0.9rem;
+    font-size: 0.75rem;
 }
 
 /* NAV-BAR */
@@ -1336,6 +1336,10 @@ details[open] summary p::before {
     content: "↑";
 }
 
+details summary::-webkit-details-marker {
+    display:none;
+}
+
 summary {
     list-style: none;
     border-bottom: 1px solid var(--text);
@@ -1398,9 +1402,51 @@ summary p::before {
     align-items: center;
 }
 
-#iucn-status .tooltip {
+#iucn-status a {
     text-decoration: none;
 }
+
+.tooltip {
+    position: relative;
+    display: flex;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 18rem;
+    background-color: #444444;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 180%;
+    left: 50%;
+    margin-left: -9rem;
+}
+
+.tooltip-icon {
+    width: 1em;
+    height: 1em;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #444444 transparent;
+}
+
 
 .image-attribution {
     font-size: 0.9em;
@@ -1448,12 +1494,45 @@ summary p::before {
 .knowledge-card {
     display: flex;
     flex-direction: column;
+    overflow: hidden;
+    height: 15rem;
 }
 
 .knowledge-card-image {
     position: relative;
+    width: 100%;
+    box-sizing: border-box;
     overflow: hidden;
+    flex: 7;
 }
+
+.knowledge-card-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.knowledge-card-text {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 0.6em;
+}
+
+.knowledge-card-text p {
+    margin-bottom: 0;
+}
+
+.knowledge-card-text p:first-child {
+    font-weight: bold;
+}
+
+.knowledge-cards a {
+    text-decoration: none;
+}
+
 
 nav p {
     margin-bottom: 0;
@@ -1465,23 +1544,4 @@ nav p {
     margin-bottom: 0;
     margin-top: 0;
     line-height: unset;
-}
-
-.knowledge-card-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    padding: 0.5em;
-}
-
-.knowledge-card-text p {
-    margin-bottom: 0;
-}
-
-.knowledge-card-text p:first-child {
-   font-weight: bold;
-}
-
-.knowledge-cards a {
-    text-decoration: none;
 }
