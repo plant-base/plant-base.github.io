@@ -591,11 +591,15 @@ button {
     padding-inline: 6px;
 }
 
-.top-row-img {
-    width: 1rem;
-    height: 1rem;
-    margin-right: 6px;
-    margin-top: 1px;
+.plantbase-icon {
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-right: 1rem;
+
+}
+
+.dark .plantbase-icon {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(152deg) brightness(103%) contrast(103%);
 }
 
 article {
@@ -1031,38 +1035,34 @@ h5 {
     margin: 0;
 }
 
-#species-collection {
+
+#species-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    grid-gap: 20px;
+}
+
+
+#species-grid {
 padding-top: 1em;
 }
 
-#species-collection ul {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-}
-
-#species-collection li {
-padding-bottom: 1em;
-    margin-right: 1em;
-}
-
-
-#species-collection img {
+#species-grid img {
     width: 5em;
     height: 5em;
     border-radius: 8px;
     max-inline-size: unset;
 }
 
-#species-collection li p {
+#species-grid p {
     line-height: 1.2;
 }
 
-#species-collection li a {
+#species-grid a {
     text-decoration: none;
 }
 
-#species-collection li p {
+#species-grid p {
     margin: 0;
 }
 
@@ -1489,7 +1489,7 @@ hr {
 }
 
 .download-cards {
-    margin-top: 3em;
+    margin-top: 2em;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 20px;
@@ -1499,8 +1499,9 @@ hr {
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    height: 20rem;
+    height: 24rem;
     padding: 1em;
+    justify-content: space-between;
 }
 
 .download-card ul {
@@ -1518,6 +1519,12 @@ hr {
     flex-shrink: 0;
 }
 
+.download-card button svg {
+    width: 1.0rem;
+    height: 1.0rem;
+    flex-shrink: 0;
+}
+
 .download-card li {
     display: flex;
     color: var(--text);
@@ -1525,6 +1532,26 @@ hr {
     flex-wrap: wrap;
 }
 
+.download-card button {
+    background-color: #bdbdbd;
+    border-radius: 4px;
+    font-size: small;
+    font-weight: bold;
+    padding: 0.2em 1.2em;
+    color: var(--text-inverse);
+    display: flex;
+    justify-content: center;
+}
+
+.download-card button:not(.disabled) {
+    background-color: var(--text);
+
+}
+
+.download-card button:hover:not(.disabled) {
+    background-color: #626262;
+    cursor: pointer;
+}
 
 .download-card p {
     margin: 0 0 0 0.75rem; /* Adjust spacing between icon and text */
@@ -1539,7 +1566,7 @@ hr {
 }
 
 .download-card .pricing {
-    margin: 1em 0 0 0;
+    margin: 0.5em 0 0 0;
     padding: 0;
     flex: 0;
     color: grey;
@@ -1607,18 +1634,18 @@ nav p {
 }
 
 
-#download-button button {
+#links button {
     margin: 0;
-    margin-left: 2em;
-    background-color: black;
-    border-radius: 8px;
+    margin-left: 1em;
+    background-color: var(--text);
+    border-radius: 4px;
     font-size: small;
     font-weight: bold;
-    padding: 0.2em 1.5em;
+    padding: 0.2em 1.2em;
     color: var(--text-inverse);
 }
 
-#download-button button:hover {
+#links button:hover {
     background-color: #626262;
     cursor: pointer;
 }
