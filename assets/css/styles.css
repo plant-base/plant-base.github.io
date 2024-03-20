@@ -437,7 +437,7 @@ a:hover {
 
 .nav-bar nav {
     max-width: var(--landing-page-max-width);
-    padding: 1rem 0 1.1rem;
+    padding: 1.0rem 0 0.6rem;
     display: flex;
     gap: 0.3rem;
     width: 100%;
@@ -1484,6 +1484,66 @@ summary p::before {
     font-display: swap;
 }
 
+hr {
+    border-bottom: dashed 1px;
+}
+
+.download-cards {
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.download-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 20rem;
+    padding: 1em;
+}
+
+.download-card ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.7rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.download-card ul svg {
+    width: 1rem;
+    height: 1rem;
+    flex-shrink: 0;
+}
+
+.download-card li {
+    display: flex;
+    color: var(--text);
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+
+.download-card p {
+    margin: 0 0 0 0.75rem; /* Adjust spacing between icon and text */
+    line-height: unset;
+    flex: 1;
+}
+
+.download-card h4 {
+    margin: 0;
+    padding: 0;
+    font-family: Inconsolata, monospace;
+}
+
+.download-card .pricing {
+    margin: 1em 0 0 0;
+    padding: 0;
+    flex: 0;
+    color: grey;
+}
 
 .knowledge-cards {
     display: grid;
@@ -1544,4 +1604,21 @@ nav p {
     margin-bottom: 0;
     margin-top: 0;
     line-height: unset;
+}
+
+
+#download-button button {
+    margin: 0;
+    margin-left: 2em;
+    background-color: black;
+    border-radius: 8px;
+    font-size: small;
+    font-weight: bold;
+    padding: 0.2em 1.5em;
+    color: var(--text-inverse);
+}
+
+#download-button button:hover {
+    background-color: #626262;
+    cursor: pointer;
 }

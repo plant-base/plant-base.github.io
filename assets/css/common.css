@@ -82,7 +82,7 @@
     font-weight: bold;
 }
 
-#article h3 {
+h3 {
     scroll-margin-top: 4.8em;
     font-size: 1.2rem;
     padding-top: 0.6rem;
@@ -90,7 +90,7 @@
     font-weight: bold;
 }
 
-#article h4 {
+h4 {
     scroll-margin-top: 4.8em;
     font-size: 1.0rem;
     padding-top: 2.4rem;
