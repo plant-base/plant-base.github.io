@@ -1466,7 +1466,7 @@ summary p::before {
 }
 
 .image-container {
-    display: inline-block;
+    display: block;
     position: relative;
     overflow: hidden;
 }
@@ -1684,4 +1684,8 @@ nav p {
 
 #sources-section h4 {
     padding-top: 1rem;
+}
+
+#species-image {
+    max-height: 20em;
 }
