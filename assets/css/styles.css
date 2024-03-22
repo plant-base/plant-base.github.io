@@ -63,7 +63,7 @@
 .bento-column-1 {
     grid-column-gap: 16px;
     grid-row-gap: 16px;
-    grid-template-rows: 1fr 0.8fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
     grid-auto-columns: 1fr;
     display: grid;
@@ -237,6 +237,11 @@ a {
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
+}
+
+#taxonomy-card a {
+    text-decoration: none !important;
+    border-bottom: 0 !important;
 }
 
 #taxonomy-card ul p {
@@ -506,25 +511,20 @@ a:hover {
 
 /* HERO */
 .hero {
-    padding: 2rem 0 0;
+    padding: 0;
     border-top: none;
     max-width: var(--landing-page-max-width);
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-    font-size: 4rem;
-    line-height: 1;
-    letter-spacing: -1.2px;
+    margin-bottom: 5rem;
 }
 
 .hero h1 {
-    font-size: 5em;
-    line-height: var(--line-height-jumbo);
+    font-size: 4em;
     letter-spacing: -0.01em;
     font-weight: 200;
 }
 
 .hero p {
-    max-width: 520px;
+    max-width: 80%;
     display: block;
     margin: 1.3rem 0 1.1rem;
     font-size: var(--font-size-4);
@@ -600,6 +600,12 @@ button {
 
 .dark .plantbase-icon {
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(152deg) brightness(103%) contrast(103%);
+}
+
+.header-icon {
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-right: 0.6rem;
 }
 
 article {
@@ -1423,9 +1429,9 @@ summary p::before {
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
-    top: 180%;
+    top: 200%;
     left: 50%;
-    margin-left: -9rem;
+    margin-left: -17rem;
 }
 
 .tooltip-icon {
@@ -1440,7 +1446,7 @@ summary p::before {
     content: " ";
     position: absolute;
     bottom: 100%;  /* At the top of the tooltip */
-    left: 50%;
+    right: 4%;
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
@@ -1499,7 +1505,7 @@ hr {
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    height: 24rem;
+    /*height: 24rem;*/
     padding: 1em;
     justify-content: space-between;
 }
@@ -1509,7 +1515,7 @@ hr {
     flex-direction: column;
     row-gap: 0.7rem;
     list-style: none;
-    margin: 0;
+    margin: 0 0 1.5rem 0;
     padding: 0;
 }
 
@@ -1648,4 +1654,34 @@ nav p {
 #links button:hover {
     background-color: #626262;
     cursor: pointer;
+}
+
+.home-header {
+    display: flex;
+    align-items: start;
+    margin-top: 3em;
+    padding-bottom: 0;
+    grid-row-gap: 15px;
+    flex-direction: column;
+}
+
+.home-header-me {
+    display: flex;
+    align-items: start;
+    padding-top: 40px;
+    padding-bottom: 0;
+    grid-column-gap: 2em;
+    flex-direction: row;
+    padding: 0;
+
+}
+
+.home-header img {
+    border-radius: 4px;
+    object-fit: cover;
+    max-width: 120px;
+}
+
+#sources-section h4 {
+    padding-top: 1rem;
 }
