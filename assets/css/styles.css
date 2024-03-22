@@ -608,6 +608,12 @@ button {
     margin-right: 0.6rem;
 }
 
+.header-icon-h3 {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.6rem;
+}
+
 article {
     display: flex;
     flex-grow: 1;
@@ -1659,7 +1665,7 @@ nav p {
 .home-header {
     display: flex;
     align-items: start;
-    margin-top: 3em;
+    margin-top: 1em;
     padding-bottom: 0;
     grid-row-gap: 15px;
     flex-direction: column;
@@ -1676,10 +1682,18 @@ nav p {
 
 }
 
+strong {
+    font-weight: bold;
+}
+
 .home-header img {
     border-radius: 4px;
     object-fit: cover;
-    max-width: 120px;
+    max-width: 80px;
+}
+
+.home-header p {
+    text-align: justify;
 }
 
 #sources-section h4 {
