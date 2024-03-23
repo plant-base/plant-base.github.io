@@ -1000,6 +1000,8 @@ h5 {
     margin-bottom: 1em;
 }
 
+
+
 .enumeration ul {
     padding: 0;
     display: flex;
@@ -1016,6 +1018,15 @@ h5 {
     padding-left: 0.5em;
     margin-bottom: 0.5em;
 }
+
+
+
+.ph-levels li p {
+    padding: 0;
+    margin: 0;
+}
+
+
 
 #taxonomy-list li a {
     text-decoration: none;
@@ -1203,6 +1214,12 @@ padding-top: 1em;
     font-size: 0.8em;
 }
 
+.value-label-3 {
+    position: absolute;
+    top: -20px;
+    font-size: 0.8em;
+}
+
 .value-label-6:nth-of-type(1) {
     left: 0;
 }
@@ -1252,6 +1269,20 @@ padding-top: 1em;
 .value-label-5:nth-of-type(5) {
     right: 0;
 }
+
+.value-label-3:nth-of-type(1) {
+    left: 0;
+}
+
+.value-label-3:nth-of-type(2) {
+    left: 50%;
+    transform: translateX(-20%);
+}
+
+.value-label-3:nth-of-type(3) {
+    right: 0;
+}
+
 
 .low-light-child-bar {
     position: absolute;
@@ -1310,6 +1341,29 @@ padding-top: 1em;
     background-color: rgba(126, 206, 255, 0.41);
     height: 100%;
     border-radius: 0px;
+}
+
+.ph-child-bar {
+    position: absolute;
+    height: 100%;
+    border-radius: 0px;
+}
+
+.ph-indicator {
+    position: absolute;
+    height: 100%;
+    border-radius: 0px;
+}
+
+.indicator {
+    position: relative;
+    background-color: transparent;
+    margin-top: 0.5em;
+    height: 0.5em;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 0.3em;
 }
 
 .care-card p a {
