@@ -1,32 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-      <loc>https://plantbase.green/posts/how-to-care-for-plants/</loc>
+      <loc>https://plantbase.green/posts/care/</loc>
       <lastmod>2023-12-07</lastmod>
       <changefreq>monthly</changefreq>
     </url>
     <url>
-      <loc>https://plantbase.green/posts/how-to-propagate-plants/</loc>
+      <loc>https://plantbase.green/posts/flowers/</loc>
       <lastmod>2023-12-07</lastmod>
       <changefreq>monthly</changefreq>
     </url>
     <url>
-      <loc>https://plantbase.green/posts/how-to-water-plants/</loc>
+      <loc>https://plantbase.green/posts/humidity/</loc>
       <lastmod>2023-12-07</lastmod>
       <changefreq>monthly</changefreq>
     </url>
     <url>
-      <loc>https://plantbase.green/posts/plant-jargon-explained/</loc>
+      <loc>https://plantbase.green/posts/jargon/</loc>
       <lastmod>2023-12-07</lastmod>
       <changefreq>monthly</changefreq>
     </url>
     <url>
-      <loc>https://plantbase.green/posts/plant-taxonomy-explained/</loc>
+      <loc>https://plantbase.green/posts/light/</loc>
+      <lastmod>2023-12-07</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+    <url>
+      <loc>https://plantbase.green/posts/propagation/</loc>
       <lastmod>2023-12-07</lastmod>
       <changefreq>monthly</changefreq>
     </url>
     <url>
       <loc>https://plantbase.green/posts/soil/</loc>
+      <lastmod>2023-12-07</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+    <url>
+      <loc>https://plantbase.green/posts/taxonomy/</loc>
+      <lastmod>2023-12-07</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+    <url>
+      <loc>https://plantbase.green/posts/temperature/</loc>
+      <lastmod>2023-12-07</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+    <url>
+      <loc>https://plantbase.green/posts/toxicity/</loc>
+      <lastmod>2023-12-07</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+    <url>
+      <loc>https://plantbase.green/posts/watering/</loc>
       <lastmod>2023-12-07</lastmod>
       <changefreq>monthly</changefreq>
     </url>
@@ -71,6 +96,11 @@
       <changefreq>monthly</changefreq>
     </url>
     <url>
+      <loc>https://plantbase.green/genera/acanthus/</loc>
+      <lastmod>2024-04-01</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+    <url>
       <loc>https://plantbase.green/genera/alocasia/</loc>
       <lastmod>2024-04-01</lastmod>
       <changefreq>monthly</changefreq>
@@ -82,6 +112,11 @@
     </url>
     <url>
       <loc>https://plantbase.green/genera/chlorophytum/</loc>
+      <lastmod>2024-04-01</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+    <url>
+      <loc>https://plantbase.green/genera/crassula/</loc>
       <lastmod>2024-04-01</lastmod>
       <changefreq>monthly</changefreq>
     </url>
@@ -207,6 +242,11 @@
     </url>
     <url>
       <loc>https://plantbase.green/species/chlorophytum-comosum/</loc>
+      <lastmod>2024-04-01</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+    <url>
+      <loc>https://plantbase.green/species/crassula-ovata/</loc>
       <lastmod>2024-04-01</lastmod>
       <changefreq>monthly</changefreq>
     </url>
