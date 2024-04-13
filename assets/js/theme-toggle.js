@@ -77,7 +77,7 @@ function reflectThemePreference() {
             </circle><circle class="ray" cx="13.749" cy="3.04957" r="1" transform="rotate(-135 13.749 3.04957)" fill="currentColor">
             </circle>
         </svg>
-        <span>Bright Indirect Light</span>
+        <span>Bright Light</span>
       `;
     }
 }
