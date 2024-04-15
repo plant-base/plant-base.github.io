@@ -3,9 +3,9 @@
   <title>plantbase</title>
   <subtitle>A free, high-quality and pragmatic knowledge base of plant species.</subtitle>
   <link href="https://plantbase.green/posts/feed.xml" rel="self"/>
-  <link href="https://plantbase.green/"/>
+  <link href="https://plant-base.github.io"/>
   <updated>2023-12-07T00:00:00Z</updated>
-  <id>https://plantbase.green/</id>
+  <id>https://plant-base.github.io</id>
   <author>
     <name>Alexander Ameye</name>
     <email>alexanderameye@gmail.com</email>
@@ -13,36 +13,36 @@
   
   <entry>
     <title>Watering</title>
-    <link href="https://plantbase.green/posts/watering/"/>
+    <link href="https://plant-base.github.io/posts/watering/"/>
     <updated>2023-12-07T00:00:00Z</updated>
-    <id>https://plantbase.green/posts/watering/</id>
+    <id>https://plant-base.github.io/posts/watering/</id>
     <content type="html">&lt;h2 id=&quot;introduction&quot; tabindex=&quot;-1&quot;&gt;Introduction&lt;/h2&gt;
 </content>
   </entry>
   
   <entry>
     <title>Toxicity</title>
-    <link href="https://plantbase.green/posts/toxicity/"/>
+    <link href="https://plant-base.github.io/posts/toxicity/"/>
     <updated>2023-12-07T00:00:00Z</updated>
-    <id>https://plantbase.green/posts/toxicity/</id>
+    <id>https://plant-base.github.io/posts/toxicity/</id>
     <content type="html">&lt;p&gt;Toxicity&lt;/p&gt;
 </content>
   </entry>
   
   <entry>
     <title>Temperature</title>
-    <link href="https://plantbase.green/posts/temperature/"/>
+    <link href="https://plant-base.github.io/posts/temperature/"/>
     <updated>2023-12-07T00:00:00Z</updated>
-    <id>https://plantbase.green/posts/temperature/</id>
+    <id>https://plant-base.github.io/posts/temperature/</id>
     <content type="html">&lt;h2 id=&quot;introduction&quot; tabindex=&quot;-1&quot;&gt;Introduction&lt;/h2&gt;
 </content>
   </entry>
   
   <entry>
     <title>Plant Taxonomy</title>
-    <link href="https://plantbase.green/posts/taxonomy/"/>
+    <link href="https://plant-base.github.io/posts/taxonomy/"/>
     <updated>2023-12-07T00:00:00Z</updated>
-    <id>https://plantbase.green/posts/taxonomy/</id>
+    <id>https://plant-base.github.io/posts/taxonomy/</id>
     <content type="html">&lt;h2 id=&quot;introduction&quot; tabindex=&quot;-1&quot;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Plants are classified into various categories based on their characteristics and evolutionary relationships.
 Understanding the taxonomy of a plant species involves familiarizing oneself with terms like &lt;em&gt;family&lt;/em&gt;, &lt;em&gt;genus&lt;/em&gt;,
@@ -95,9 +95,9 @@ the
 subspecies &lt;span id=&quot;subspecies-taxon&quot;&gt;adansonii&lt;/span&gt; and &lt;span id=&quot;subspecies-taxon&quot;&gt;
 blanchetii&lt;/span&gt;.&lt;/p&gt;
 &lt;div id=&quot;map&quot; class=&quot;rounded outline&quot;&gt;&lt;/div&gt;
-&lt;script src=&quot;https://plantbase.green/assets/js/adansonii.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;
-&lt;script src=&quot;https://plantbase.green/assets/js/blanchetii.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;
-&lt;script src=&quot;https://plantbase.green/assets/js/subspecies-map.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://plant-base.github.io/assets/js/adansonii.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://plant-base.github.io/assets/js/blanchetii.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://plant-base.github.io/assets/js/subspecies-map.js&quot; defer=&quot;&quot;&gt;&lt;/script&gt;
 &lt;p&gt;As you can see, these subspecies are geographically isolated, allowing them to develop unique attributes.&lt;/p&gt;
 &lt;h3 id=&quot;variety&quot; tabindex=&quot;-1&quot;&gt;Variety&lt;/h3&gt;
 &lt;p&gt;A &lt;strong&gt;variety&lt;/strong&gt; denotes a naturally occurring variation within a species. It is indicated by abbreviating &amp;quot;var.&amp;quot; before
@@ -129,9 +129,9 @@ the &lt;span id=&quot;familia-taxon&quot;&gt;Araceae&lt;/span&gt; family is ofte
   
   <entry>
     <title>Soil</title>
-    <link href="https://plantbase.green/posts/soil/"/>
+    <link href="https://plant-base.github.io/posts/soil/"/>
     <updated>2023-12-07T00:00:00Z</updated>
-    <id>https://plantbase.green/posts/soil/</id>
+    <id>https://plant-base.github.io/posts/soil/</id>
     <content type="html">&lt;h2 id=&quot;introduction&quot; tabindex=&quot;-1&quot;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;There are many choices to make when it comes to selecting soil for your plant. There are different soil characteristics
 that you should take into account that should match the preferences of the plant. Additionally, soil amendments can be
@@ -254,9 +254,9 @@ very permeable, good drainage&lt;/p&gt;
   
   <entry>
     <title>Plant Propagation</title>
-    <link href="https://plantbase.green/posts/propagation/"/>
+    <link href="https://plant-base.github.io/posts/propagation/"/>
     <updated>2023-12-07T00:00:00Z</updated>
-    <id>https://plantbase.green/posts/propagation/</id>
+    <id>https://plant-base.github.io/posts/propagation/</id>
     <content type="html">&lt;h2 id=&quot;introduction&quot; tabindex=&quot;-1&quot;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Plant propagation is the process of producing a new plant from an existing plant.&lt;/p&gt;
 &lt;p&gt;Sexual propagation is the process of reproduction of plants by seeds. The resulting plant is a genetic combination of
@@ -302,18 +302,18 @@ of propagation and not the sexual variant.&lt;/p&gt;
   
   <entry>
     <title>Light</title>
-    <link href="https://plantbase.green/posts/light/"/>
+    <link href="https://plant-base.github.io/posts/light/"/>
     <updated>2023-12-07T00:00:00Z</updated>
-    <id>https://plantbase.green/posts/light/</id>
+    <id>https://plant-base.github.io/posts/light/</id>
     <content type="html">&lt;p&gt;Light&lt;/p&gt;
 </content>
   </entry>
   
   <entry>
     <title>Plant Terminology</title>
-    <link href="https://plantbase.green/posts/jargon/"/>
+    <link href="https://plant-base.github.io/posts/jargon/"/>
     <updated>2023-12-07T00:00:00Z</updated>
-    <id>https://plantbase.green/posts/jargon/</id>
+    <id>https://plant-base.github.io/posts/jargon/</id>
     <content type="html">&lt;h2 id=&quot;introduction&quot; tabindex=&quot;-1&quot;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;When it comes to plants, lots of different terms are used in articles, blog posts or websites. Some of these terms are
 not clearly/properly explained
@@ -323,13 +323,13 @@ plants.&lt;/p&gt;
 &lt;h3 id=&quot;a---d&quot; tabindex=&quot;-1&quot;&gt;A - D&lt;/h3&gt;
 &lt;h4&gt;Acidity or pH levels&lt;/h4&gt;
 &lt;h4&gt;Cultivar&lt;/h4&gt;
-&lt;p&gt;Read &lt;a href=&quot;https://plantbase.green/posts/jargon/plant-taxonomy-explained&quot;&gt;Plant taxonomy: explained&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;p&gt;Read &lt;a href=&quot;https://plant-base.github.io/posts/jargon/plant-taxonomy-explained&quot;&gt;Plant taxonomy: explained&lt;/a&gt; for more information.&lt;/p&gt;
 &lt;h3 id=&quot;e---h&quot; tabindex=&quot;-1&quot;&gt;E - H&lt;/h3&gt;
 &lt;h4&gt;Family&lt;/h4&gt;
-&lt;p&gt;Read &lt;a href=&quot;https://plantbase.green/posts/jargon/plant-taxonomy-explained&quot;&gt;Plant taxonomy: explained&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;p&gt;Read &lt;a href=&quot;https://plant-base.github.io/posts/jargon/plant-taxonomy-explained&quot;&gt;Plant taxonomy: explained&lt;/a&gt; for more information.&lt;/p&gt;
 &lt;h4&gt;Fenestration&lt;/h4&gt;
 &lt;h4&gt;Genus&lt;/h4&gt;
-&lt;p&gt;Read &lt;a href=&quot;https://plantbase.green/posts/jargon/plant-taxonomy-explained&quot;&gt;Plant taxonomy: explained&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;p&gt;Read &lt;a href=&quot;https://plant-base.github.io/posts/jargon/plant-taxonomy-explained&quot;&gt;Plant taxonomy: explained&lt;/a&gt; for more information.&lt;/p&gt;
 &lt;h4&gt;Guttation&lt;/h4&gt;
 &lt;h4&gt;Hardiness zone&lt;/h4&gt;
 &lt;h3 id=&quot;i---o&quot; tabindex=&quot;-1&quot;&gt;I - O&lt;/h3&gt;
@@ -347,14 +347,14 @@ plant. The resulting plant is genetically identical to the parent plant and esse
 &lt;p&gt;Usually when talking about propagation in the context of houseplants, one is referring to the asexual/vegetative variant
 of propagation and not the sexual variant.&lt;/p&gt;
 &lt;h4&gt;Species&lt;/h4&gt;
-&lt;p&gt;Read &lt;a href=&quot;https://plantbase.green/posts/jargon/plant-taxonomy-explained&quot;&gt;Plant taxonomy: explained&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;p&gt;Read &lt;a href=&quot;https://plant-base.github.io/posts/jargon/plant-taxonomy-explained&quot;&gt;Plant taxonomy: explained&lt;/a&gt; for more information.&lt;/p&gt;
 &lt;h4&gt;Subspecies&lt;/h4&gt;
-&lt;p&gt;Read &lt;a href=&quot;https://plantbase.green/posts/jargon/plant-taxonomy-explained&quot;&gt;Plant taxonomy: explained&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;p&gt;Read &lt;a href=&quot;https://plant-base.github.io/posts/jargon/plant-taxonomy-explained&quot;&gt;Plant taxonomy: explained&lt;/a&gt; for more information.&lt;/p&gt;
 &lt;h3 id=&quot;t---v&quot; tabindex=&quot;-1&quot;&gt;T - V&lt;/h3&gt;
 &lt;h4&gt;Turgor pressure&lt;/h4&gt;
 &lt;h4&gt;Variegated&lt;/h4&gt;
 &lt;h4&gt;Variety&lt;/h4&gt;
-&lt;p&gt;Read &lt;a href=&quot;https://plantbase.green/posts/jargon/plant-taxonomy-explained&quot;&gt;Plant taxonomy: explained&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;p&gt;Read &lt;a href=&quot;https://plant-base.github.io/posts/jargon/plant-taxonomy-explained&quot;&gt;Plant taxonomy: explained&lt;/a&gt; for more information.&lt;/p&gt;
 &lt;h3 id=&quot;w---z&quot; tabindex=&quot;-1&quot;&gt;W - Z&lt;/h3&gt;
 &lt;h2 id=&quot;additional-resources&quot; tabindex=&quot;-1&quot;&gt;Additional resources&lt;/h2&gt;
 </content>
@@ -362,27 +362,27 @@ of propagation and not the sexual variant.&lt;/p&gt;
   
   <entry>
     <title>Humidity</title>
-    <link href="https://plantbase.green/posts/humidity/"/>
+    <link href="https://plant-base.github.io/posts/humidity/"/>
     <updated>2023-12-07T00:00:00Z</updated>
-    <id>https://plantbase.green/posts/humidity/</id>
+    <id>https://plant-base.github.io/posts/humidity/</id>
     <content type="html">&lt;h2 id=&quot;introduction&quot; tabindex=&quot;-1&quot;&gt;Introduction&lt;/h2&gt;
 </content>
   </entry>
   
   <entry>
     <title>Flowers</title>
-    <link href="https://plantbase.green/posts/flowers/"/>
+    <link href="https://plant-base.github.io/posts/flowers/"/>
     <updated>2023-12-07T00:00:00Z</updated>
-    <id>https://plantbase.green/posts/flowers/</id>
+    <id>https://plant-base.github.io/posts/flowers/</id>
     <content type="html">&lt;p&gt;FLOWERS&lt;/p&gt;
 </content>
   </entry>
   
   <entry>
     <title>Plant Care</title>
-    <link href="https://plantbase.green/posts/care/"/>
+    <link href="https://plant-base.github.io/posts/care/"/>
     <updated>2023-12-07T00:00:00Z</updated>
-    <id>https://plantbase.green/posts/care/</id>
+    <id>https://plant-base.github.io/posts/care/</id>
     <content type="html">&lt;h2 id=&quot;introduction&quot; tabindex=&quot;-1&quot;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This guide will explain how to care for plants. In general, plants need 3 things.&lt;/p&gt;
 &lt;ul&gt;
