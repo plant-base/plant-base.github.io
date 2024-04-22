@@ -51,7 +51,7 @@ function reflectThemePreference() {
         document.querySelector('meta[name="theme-color"]').setAttribute('content',  '#181c1f');
     } else if (theme.value === 'light') {
         document.body.classList.replace('dark', 'light');
-        document.querySelector('meta[name="theme-color"]').setAttribute('content',  '#f6f4f0');
+        document.querySelector('meta[name="theme-color"]').setAttribute('content',  '#fcf9f6');
     }
 
     if (document.getElementById('map')) {
