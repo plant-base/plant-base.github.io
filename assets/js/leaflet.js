@@ -24,7 +24,7 @@ const info = L.control({position: 'bottomleft'});
 
 info.onAdd = function () {
     this._div = L.DomUtil.create('div', 'info');
-    L.DomUtil.addClass(this._div, 'background');
+    L.DomUtil.addClass(this._div, 'foreground');
     L.DomUtil.addClass(this._div, 'rounded');
     L.DomUtil.addClass(this._div, 'outline');
 
@@ -98,7 +98,7 @@ const legend = L.control({position: 'bottomright'});
 legend.onAdd = function (map) {
 
     const div = L.DomUtil.create('div', 'legend');
-    L.DomUtil.addClass(div, 'background');
+    L.DomUtil.addClass(div, 'foreground');
     L.DomUtil.addClass(div, 'rounded');
     L.DomUtil.addClass(div, 'outline');
 
