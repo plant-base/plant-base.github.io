@@ -48,10 +48,10 @@ function reflectThemePreference() {
 
     if (theme.value === 'dark') {
         document.body.classList.replace('light', 'dark');
-        document.querySelector('meta[name="theme-color"]').setAttribute('content',  '#181c1f');
+        document.querySelector('meta[name="theme-color"]').setAttribute('content',  '#f7f8f5');
     } else if (theme.value === 'light') {
         document.body.classList.replace('dark', 'light');
-        document.querySelector('meta[name="theme-color"]').setAttribute('content',  '#fcf9f6');
+        document.querySelector('meta[name="theme-color"]').setAttribute('content',  '#f7f8f5');
     }
 
     if (document.getElementById('map')) {
